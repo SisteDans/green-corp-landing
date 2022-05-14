@@ -15,6 +15,18 @@ body {
   margin: 0;
 }
 
+.about {
+   position: relative;
+}
+
+.orb-canvas {
+   position: absolute;
+   top: 0;
+   height: 100%;
+	width: 100%;
+   right: 0;
+}
+
 @keyframes rotation {
   100% {transform: rotate(-360deg);}  
 }
